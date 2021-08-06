@@ -1,2 +1,3 @@
 # Igram
-Igram é uma recriação do Instagram, com personalização autora (logo e detalhes na base Html e Css). Esse projeto é um desafio dado pela DIO, com a professora Gabriela Pinheiro.
+Nesse projeto o dasafio tem o objetivo de recriar a interface do Instagram, utilizando as bases do Bootcamp Html dado pela Digital Innovation One, com aulas base da Gabriela Pinheiro (https://github.com/SpruceGabriela), o editor utilizado nesse projeto é o VsCode, desenvolvido pela Microsoft.  
+Inicialmente os códigos são apresentados e explicados pela Gabriela, o qual disponibiliza todo material para ser reutilizado. Para esse desafio tomei a decisão de criar uma logo marca baseada na marca do Instagram, em busca de criar um projeto mais diferenciado. Por conta disso houve modificações especiais para a criação da interface, a qual se tornou o maior desafio, dando assim a necessidade de uma ampliação sobre as ferramentas do HTML e Css.
