@@ -115,10 +115,10 @@
 }
 
 .app-download:nth-child(1) {
-    background-image: url(appstore-button.jpg);
+    background-image: url(./img/appstore-button.jpg);
 }
 .app-download:nth-child(2) {
-    background-image: url(googleplay-button.jpg);
+    background-image: url(./img/googleplay-button.jpg);
 }
 .final-pag {
     position: fixed;
