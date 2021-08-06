@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif; 
+    font-size: 14px;
+} 
+
+.body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.igram-app {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 65%;
+    height: 90vh;
+}
+.igram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120%;
+}
+.igram-phone img {
+    height: 75vh;
+}
+.igram-entrada {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 65%;
+    min-height: 35rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    width: 100%;
+    padding: 1rem ;
+    border: 1px solid lightgray;
+}
+.group:nth-child(1) {
+    min-height: 15rem;
+}
+
+.group img {
+    height: 10vh;
+}
+
+.photo img {
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    overflow: hidden;
+    height: 16vh;
+}
+
+.Igram-login {
+    margin-top: 1rem;
+    background-color: royalblue;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.Igram-logout {
+    color: royalblue;
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(160, 160, 160)
+}
+
+.link-blue {
+    color: royalblue
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1OO%;
+    padding: 1.3rem 0;
+}
+
+.dowload {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;   
+}
+
+.app-download {
+    display: inline-block;
+    height: 3.2rem;
+    width: 10rem;
+    background-size: contain;
+}
+
+.app-download:nth-child(1) {
+    background-image: url(appstore-button.jpg);
+}
+.app-download:nth-child(2) {
+    background-image: url(googleplay-button.jpg);
+}
+.final-pag {
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    bottom: 0;
+    color: lightskyblue;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .igram-app{
+        width: 90%;
+    }
+    
+    .igram-phone{
+        padding: 10vh;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .body{
+        background-color: #ffff;
+    }
+
+    .igram-app {
+        width: 100%;
+    }
+
+    .igram-phone {
+        display: none;    
+    }
+
+    .igram-entrada {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
